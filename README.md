@@ -1,1 +1,1 @@
-# ProjetoMaquinas_Caixa_de_Reducao
+# Implementação de código no software OCTAVE para dimensionamento de caixa de redução.
