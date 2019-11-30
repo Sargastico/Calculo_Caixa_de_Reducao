@@ -8,6 +8,6 @@ function EscolhaDiametroPrimitivo = DiametroPrimitivo(numero_dentes, indice_do_m
     printf("\n\nDiametro Primitivo em Milimetros = %d \n",Diametro_Primitivo(indice_do_modulo));
     printf("Para modulo = %d \n",modulo(indice_do_modulo));
     printf("\nFull 'ans' array:\n");
-  endfor
+  end
   
 endfunction
