@@ -1,6 +1,6 @@
 # Implementação de código no software OCTAVE para dimensionamento de caixa de redução.
 
-> Redutor de velocidades, com a seleção de um motor de indução trifásica de 2 polos operando a 3380 RPM e 1.5 kW(2.0 cv) da marca WEG, IP55 tem-se o objetivo de através da utilização do redutor, “transformar” a rotação de entrada e torque, em uma outra rotação e torque final necessário, para este projeto, temos a entrada de 3380 RPM e necessitamos de uma conversão para 200 N.m de torque na saída final do redutor de velocidades.
+<div style="text-align: right">Redutor de velocidades, com a seleção de um motor de indução trifásica de 2 polos operando a 3380 RPM e 1.5 kW(2.0 cv) da marca WEG, IP55 tem-se o objetivo de através da utilização do redutor, “transformar” a rotação de entrada e torque, em uma outra rotação e torque final necessário, para este projeto, temos a entrada de 3380 RPM e necessitamos de uma conversão para 200 N.m de torque na saída final do redutor de velocidades.</div>
 
 ![Imgur Image](https://i.imgur.com/PhE10h5.jpg)
 
