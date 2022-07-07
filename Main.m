@@ -1,7 +1,7 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Dimensionamento de eixos e engrenagens para caixa de reduÁ„o           %
-% Coded by: Fernando M. (Sargx90), Alvaro M. (advan7age), Rhuan Martins  %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Dimensionamento de eixos e engrenagens para caixa de redu√ß√£o                        %
+% Coded by: Fernando M. (Sargx90), Alvaro M. (advan7age), Rhuan Martins(Flying-Boar)  %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 clear all; clc;
 
 % >> Entrada de dados (SI) << %
@@ -15,7 +15,7 @@ angulo_pressao = 20;
 Distancia_centro_engrenagem = [0.03, 0.09];   %Distancias escolhidas com base no tamanho das engrenagens        
 Distancia_total_eixo = 0.12;                   
 
-% >> Parametros para Pinh„o e Coroa << %
+% >> Parametros para Pinh√£o e Coroa << %
 
 for i = 1:(numel(numero_dentes_pinhao))
 
@@ -26,7 +26,7 @@ for i = 1:(numel(numero_dentes_pinhao))
   
 endfor
 
-% >> C·lculo da forÁa de reaÁ„o nos eixos e plot dos gr·ficos << %
+% >> C√°lculo da for√ßa de rea√ß√£o nos eixos e plot dos gr√°ficos << %
 
 eixo_um_e_tres_tangencial(Torque(1),(Diametro_Primitivo(1)/1000),Distancia_centro_engrenagem(1),Distancia_total_eixo,'Primeiro Eixo',1,2)
 fprintf ('\n______________________________________________________________________\n\n')
